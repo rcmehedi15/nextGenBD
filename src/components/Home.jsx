@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Catagory from './Catagory';
 const Home = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <Catagory></Catagory>
             </section>
         </>
     );

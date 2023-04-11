@@ -32,7 +32,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <NavLink className="btn btn-info	 text-white">Star Applying</NavLink>
+                        <NavLink className="btn btn-info text-white">Star Applying</NavLink>
                     </div>
                 </div>
             </nav>
