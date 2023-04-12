@@ -5,7 +5,7 @@ const HeroArea = () => {
         <>
             <div className="min-h-screen bg-base-200 ">
                 <div className="container mx-auto  flex-col lg:flex-row-reverse flex  items-center">
-                    <img src="./src/assets/man.png" className="" />
+                    <img src="https://raw.githubusercontent.com/rcmehedi15/nextGendata/main/man.png" className="" />
                     <div>
                         <h1 className="text-5xl font-bold">One Step <br /> Closer To Your <br /> <span className='text-info'>
                             Dream Job</span></h1>
