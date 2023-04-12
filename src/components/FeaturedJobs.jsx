@@ -1,8 +1,10 @@
 import React from 'react';
 import { BeakerIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
-const FeaturedJobs = ({ job }) => {
-    const { logo, job_title, job_type, job_time, address, company, salary } = job;
+const FeaturedJobs = ({ job,handleJob }) => {
+    const {_id, logo, job_title, job_type, job_time, address, company, salary } = job;
+   
     return (
         <>
 
@@ -33,10 +35,16 @@ const FeaturedJobs = ({ job }) => {
                             {salary}
                         </p>
                     </div>
-                    <button className="p-3  mt-6 rounded-lg btn-info text-white">View Details</button>
-
+                    
 
                 </div>
+                <Link to="/jobdetails/${_id}" >
+                    
+                    
+                    <button className=" ms-4 mb-3 p-3  rounded-lg btn-info text-white w-32" >View Details</button>
+                    
+                    </Link>
+
             </div>
 
 

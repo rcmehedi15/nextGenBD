@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom'
 import Catagory from './Catagory';
 import FeaturedJobs from './FeaturedJobs';
 import HeroArea from './HeroArea';
 const Home = () => {
     const jobs = useLoaderData();
+   
+    
     return (
         <>
             <section>
@@ -19,7 +21,7 @@ const Home = () => {
                 <div className='container mx-auto my-5 '>
                     <div className=' grid grid-cols-2 container mx-auto gap-5'>
                     {
-                        jobs.map(job => <FeaturedJobs key={job._id} job={job}>
+                        jobs.map(job => <FeaturedJobs key={job._id} job={job} >
 
 
                         </FeaturedJobs>)
