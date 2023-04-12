@@ -20,7 +20,7 @@ const Header = () => {
                                     </Link>
                                    
                                 </li>
-                                <li><Link className="justify-between text-dark px-4">Blog</Link></li>
+                                <li><Link to="/blog" className="justify-between text-dark px-4">Blog</Link></li>
                             </ul>
                         </div>
                         <Link className="normal-case text-2xl font-bold text-gray-700" to="/">NextGen</Link>
@@ -30,7 +30,7 @@ const Header = () => {
                             <li><Link to="/"  className="text-dark px-4">Home</Link></li>
                             <li><Link to="/statistics"  className="text-dark px-4">Statistics</Link></li>
                             <li><Link to="" className="text-dark px-4">Applied Jobs</Link></li>
-                            <li><Link to="" className="text-dark px-4">Blog</Link></li>
+                            <li><Link to="/blog" className="text-dark px-4">Blog</Link></li>
                         </ul>
                     </div>
                     <div className="navbar-end">
