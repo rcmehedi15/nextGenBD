@@ -1,14 +1,13 @@
 import React from 'react';
 import { BeakerIcon } from '@heroicons/react/24/solid'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-const FeaturedJobs = ({ job,handleJob }) => {
-    const {_id, logo, job_title, job_type, job_time, address, company, salary } = job;
+const FeaturedJobs = ({ job }) => {
    
+    const { _id, logo, job_title, job_type, job_time, address, company, salary } = job;
+    
     return (
         <>
-
-
 
             <div className="card w-full border-solid border-2 border-gray-200 ">
                 <img src={logo} alt="" className='  m-4 rounded-lg w-32' />
@@ -35,15 +34,12 @@ const FeaturedJobs = ({ job,handleJob }) => {
                             {salary}
                         </p>
                     </div>
-                    
+
 
                 </div>
-                <Link to="/jobdetails/${_id}" >
-                    
-                    
-                    <button className=" ms-4 mb-3 p-3  rounded-lg btn-info text-white w-32" >View Details</button>
-                    
-                    </Link>
+                <Link to={`/jobdetails/${_id}`} className=" ms-4 mb-3 p-3  rounded-lg btn-info text-white w-32" >
+                    View Details
+                </Link>
 
             </div>
 

@@ -1,10 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 
-const EachJob = ({job}) => {
-    const { description,responsibility,educational_Requirements,experiences,salary,job_title,phone,email,address} = job;
+const EachJob = () => {
+    const jobs = useLoaderData();
+    const {jobId} = useParams();
+    const findData = jobs.find(info => info._id === jobId)
+    
+    const { description,responsibility,educational_Requirements,experiences,salary,job_title,phone,email,address} = findData;
     return (
         <div>
+            <h1 className='text-center font-bold mt-4'>Job Details </h1>
             <div className='container mx-auto flex justify-between mt-8'>
                 <div className='w-full'> 
                     <h1> <span className='font-bold'>Job Description : </span> {description}</h1>

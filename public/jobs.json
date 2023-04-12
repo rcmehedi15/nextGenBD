@@ -1,6 +1,6 @@
 [
   {
-    "_id": "01",
+    "_id": "1",
     "logo": "https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg",
     "job_title": "Technical Database Engineer",
     "category": "Account & Finance",
@@ -14,10 +14,10 @@
     "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
     "educational_Requirements": "Bachelor degree to complete any reputational university.",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A databse engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "02",
+    "_id": "2",
     "logo": "https://mma.prnewswire.com/media/24227/microsoft_corp_logo226_9217jpg.jpg?p=facebook",
     "job_title": "Senior Software Engineer",
     "category": "Creative Design",
@@ -31,10 +31,10 @@
     "responsibility": "Design and develop software solutions that meet business and technical requirements. Collaborate with cross-functional teams to deliver high-quality software products on time and within budget.",
     "educational_Requirements": "Bachelor's degree in Computer Science or related field",
     "experiences:": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A Creative Desinger designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "03",
+    "_id": "3",
     "logo": "https://cdn.logo.com/hotlink-ok/logo-social.png",
     "job_title": "Social Media Manager",
     "category": "Marketing & Sales",
@@ -48,10 +48,10 @@
     "responsibility": "Create and manage social media content and campaigns across various platforms. Analyze and report on social media performance metrics. Collaborate with other marketing teams to ensure brand consistency.",
     "educational_Requirements": "Bachelor's degree in Marketing or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A Social Media  Manger, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "04",
+    "_id": "4",
     "logo": "https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg",
     "job_title": "iOS Developer",
     "category": "Engineering Job",
@@ -65,10 +65,10 @@
     "responsibility": "Design and develop iOS applications that meet business and technical requirements. Collaborate with cross-functional teams to deliver high-quality software products on time and within budget.",
     "educational_Requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A iOS engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "05",
+    "_id": "5",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/1280px-Facebook_New_Logo_%282015%29.svg.png",
     "job_title": "Product Manager",
     "category": "Engineering Job",
@@ -82,10 +82,10 @@
     "responsibility": "Manage the lifecycle of product development, from ideation to launch. Collaborate with cross-functional teams to gather requirements and prioritize features. Analyze user feedback and data to drive product improvements.",
     "educational_Requirements": "Bachelor's degree in Business or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A Product engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "06",
+    "_id": "6",
     "logo": "https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo.png",
     "job_title": "Graphic Designer",
     "category": "Engineering Job",
@@ -102,7 +102,7 @@
     "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "07",
+    "_id": "7",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/IBM_Logo_1956_1972.svg/1280px-IBM_Logo_1956_1972.svg.png",
     "job_title": "Software Engineer",
     "category": "Account & Finance",
@@ -119,7 +119,7 @@
     "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "08",
+    "_id": "8",
     "logo": "https://www.designbombs.com/wp-content/uploads/2021/01/webflow-website-examples-.png",
     "job_title": "Content Writer",
     "category": "Creative Design",
@@ -133,10 +133,10 @@
     "responsibility": "Write and edit high-quality content for various mediums, including blogs, social media, and email. Collaborate with other writers, designers, and stakeholders to ensure brand consistency.",
     "educational_Requirements": "Bachelor's degree in Journalism, English, or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A Graphic designer , designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
-    "_id": "09",
+    "_id": "9",
     "logo": "https://www.oracle.com/a/ocom/img/cb71-java-logo.png",
     "job_title": "Java Developer",
     "category": "Creative Design",
@@ -150,7 +150,7 @@
     "responsibility": "Design and develop Java applications that meet business and technical requirements. Collaborate with cross-functional teams to deliver high-quality software products on time and within budget.",
     "educational_Requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A java engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   },
   {
     "_id": "10",
@@ -167,6 +167,6 @@
     "responsibility": "Design and implement cloud-based solutions that meet business and technical requirements. Collaborate with cross-functional teams to deliver high-quality software products on time and within budget.",
     "educational_Requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2-3 Years in this field.",
-    "description": " A software engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
+    "description": " A cloud engineer designs, develops, tests, and maintains computer software, including programs, operating systems, and applications."
   }
 ]
