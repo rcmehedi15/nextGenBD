@@ -15,7 +15,7 @@ const Header = () => {
                                 <li><Link to="/" className="text-dark px-4">Home</Link></li>
                                 <li><Link to="/statistics" className="text-dark px-4">Statistics</Link></li>
                                 <li tabIndex={0}>
-                                    <Link className="justify-between text-dark px-4">
+                                    <Link to="/appliedjobs" className="justify-between text-dark px-4">
                                     Applied Jobs
                                     </Link>
                                    
@@ -29,7 +29,7 @@ const Header = () => {
                         <ul className=" menu-horizontal '">
                             <li><Link to="/"  className="text-dark px-4">Home</Link></li>
                             <li><Link to="/statistics"  className="text-dark px-4">Statistics</Link></li>
-                            <li><Link to="" className="text-dark px-4">Applied Jobs</Link></li>
+                            <li><Link to="/appliedjobs" className="text-dark px-4">Applied Jobs</Link></li>
                             <li><Link to="/blog" className="text-dark px-4">Blog</Link></li>
                         </ul>
                     </div>
