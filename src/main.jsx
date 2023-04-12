@@ -10,6 +10,7 @@ import {
 import Statistics from './components/Statistics';
 import Home from './components/Home';
 import Blog from './components/Blog';
+import ErrorPage from './components/ErrorPage';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+        errorElement: <ErrorPage />,
         loader: () => fetch('jobs.json')
       },
 
