@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -12,27 +12,29 @@ const Header = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
                             <ul tabIndex={0} className=" menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                                <li><NavLink className="text-dark px-4">Statistics</NavLink></li>
+                                <li><Link to="/" className="text-dark px-4">Home</Link></li>
+                                <li><Link to="/statistics" className="text-dark px-4">Statistics</Link></li>
                                 <li tabIndex={0}>
-                                    <NavLink className="justify-between text-dark px-4">
+                                    <Link className="justify-between text-dark px-4">
                                     Applied Jobs
-                                    </NavLink>
+                                    </Link>
                                    
                                 </li>
-                                <li><NavLink className="justify-between text-dark px-4">Blog</NavLink></li>
+                                <li><Link className="justify-between text-dark px-4">Blog</Link></li>
                             </ul>
                         </div>
-                        <NavLink className="normal-case text-2xl font-bold text-gray-700">NextGen</NavLink>
+                        <Link className="normal-case text-2xl font-bold text-gray-700" to="/">NextGen</Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className=" menu-horizontal '">
-                            <li><NavLink className="text-dark px-4">Statistics</NavLink></li>
-                            <li><NavLink className="text-dark px-4">Applied Jobs</NavLink></li>
-                            <li><NavLink className="text-dark px-4">Blog</NavLink></li>
+                            <li><Link to="/"  className="text-dark px-4">Home</Link></li>
+                            <li><Link to="/statistics"  className="text-dark px-4">Statistics</Link></li>
+                            <li><Link to="" className="text-dark px-4">Applied Jobs</Link></li>
+                            <li><Link to="" className="text-dark px-4">Blog</Link></li>
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <NavLink className="btn btn-info text-white">Star Applying</NavLink>
+                        <Link className="btn btn-info text-white">Star Applying</Link>
                     </div>
                 </div>
             </nav>

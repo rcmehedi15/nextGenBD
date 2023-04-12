@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedJobs from './FeaturedJobs';
 
 const Catagory = () => {
     return (
@@ -43,6 +44,7 @@ const Catagory = () => {
                     </div>
                 </div>
             </section>
+            
 
         </>
     );

@@ -9,7 +9,6 @@ function App() {
   return (
    <>
     <Header></Header>
-    <Home></Home>
     <Outlet></Outlet>
 
    </>
